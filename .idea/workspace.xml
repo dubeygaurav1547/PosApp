@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="564a842e-5f0f-4ec5-9546-405c7befcac6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jjuhTscl04w9q3v6kmhzIIvstw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GetXPath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReuseableFunction.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/vedprakash/Desktop/ui-automation/test_runner.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OnboardingFlowTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OnboardingFlowTest.verifyOnboardingFlow.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.verifyLoginLogoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.verifySigninSignoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vedprakash/Desktop/ui-automation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG./Users/vedprakash/Desktop/ui-automation/test_runner.xml">
+    <configuration name="ReuseableFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shield3.framework.utils.ReuseableFunction" />
+      <module name="Shield3UI-Automation-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shield3.framework.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/vedprakash/Desktop/ui-automation/test_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shield3UI-Automation-Test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/test_runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verifyLoginLogoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shield3UI-Automation-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shield3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shield3.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shield3.test.verifyLoginLogoutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verifyLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shield3UI-Automation-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shield3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shield3.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shield3.test.verifyLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verifySigninSignoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shield3UI-Automation-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shield3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shield3.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shield3.test.verifySigninSignoutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/vedprakash/Desktop/ui-automation/test_runner.xml" />
+        <item itemvalue="TestNG.verifySigninSignoutTest" />
+        <item itemvalue="TestNG.verifyLoginLogoutTest" />
+        <item itemvalue="TestNG.verifyLoginTest" />
+        <item itemvalue="Application.ReuseableFunction" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="564a842e-5f0f-4ec5-9546-405c7befcac6" name="Changes" comment="" />
+      <created>1721912929563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721912929563</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/shield3/test/verifySigninSignoutTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

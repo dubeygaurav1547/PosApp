@@ -1,0 +1,10 @@
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.shield3.framework.utils.ExtentReportListener"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="com.shield3.test.verifySigninSignoutTest"/>
+        </classes>
+    </test>
+</suite>

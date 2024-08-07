@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="564a842e-5f0f-4ec5-9546-405c7befcac6" name="Changes" comment="" />
+    <list default="true" id="564a842e-5f0f-4ec5-9546-405c7befcac6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extent-spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent-spark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shield3/test/verifySigninSignoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shield3/test/verifySigninSignoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shield3/framework/base/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shield3/framework/base/BaseSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shield3/framework/base/ExtentReportListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shield3/framework/base/ReuseableFunction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shield3/framework/base/ReuseableFunction$WaitCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shield3/framework/base/ReuseableFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shield3/framework/controller/LoginPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shield3/framework/controller/LoginPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shield3/test/VerifyDashboardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shield3/test/VerifyDashboardTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shield3/test/verifySigninSignoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shield3/test/verifySigninSignoutTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,23 +44,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GetXPath.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReuseableFunction.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG./Users/vedprakash/Desktop/ui-automation/test_runner.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OnboardingFlowTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OnboardingFlowTest.verifyOnboardingFlow.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.verifyLoginLogoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.verifySigninSignoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vedprakash/Desktop/ui-automation&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GetXPath.executor": "Run",
+    "Application.ReuseableFunction.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG./Users/vedprakash/Desktop/ui-automation/test_runner.xml.executor": "Run",
+    "TestNG.OnboardingFlowTest.executor": "Run",
+    "TestNG.OnboardingFlowTest.verifyOnboardingFlow.executor": "Run",
+    "TestNG.verifyLoginLogoutTest.executor": "Run",
+    "TestNG.verifySigninSignoutTest.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/vedprakash/Desktop/ui-automation",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG./Users/vedprakash/Desktop/ui-automation/test_runner.xml">
     <configuration name="ReuseableFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shield3.framework.utils.ReuseableFunction" />

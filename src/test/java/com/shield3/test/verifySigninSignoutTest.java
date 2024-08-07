@@ -16,7 +16,7 @@ public class verifySigninSignoutTest extends BaseSetup {
     public void verifySignupSigninPage() throws Exception {
         login = shield().loginPageController();
         SoftAssert softAssert = new SoftAssert();
-        softAssert.assertEquals(login.getText(login.login.resources,"Resources"), "Resource");
+        softAssert.assertEquals(login.getText(login.login.resources,"Resources"), "Resources");
         softAssert.assertEquals(login.getHeader(), "Sign up or sign in to Shield3");
         softAssert.assertEquals(login.continueText(), "Continue");
         softAssert.assertEquals(login.getEmailplaceHolder(), "Enter your email");

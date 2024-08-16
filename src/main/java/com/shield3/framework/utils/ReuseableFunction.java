@@ -1,6 +1,7 @@
 package com.shield3.framework.utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -52,10 +53,18 @@ public class ReuseableFunction {
 
     public synchronized Boolean clickObject(WebElement objWebElement, String strObjectName) throws Exception {
         try {
-            waitForElement(WaitCondition.toBeClickable,objWebElement);
-            objWebElement.click();
-            System.out.println(strObjectName + " " + "Clicked");
-            return true;
+            waitForElement(WaitCondition.toBeClickable, objWebElement);
+            try {
+                objWebElement.click();
+                System.out.println(strObjectName + " " + "Clicked");
+                return true;
+            } catch (org.openqa.selenium.ElementClickInterceptedException e) {
+                // JavaScript click fallback
+                System.err.println(strObjectName + " " + "Click intercepted, attempting JavaScript click");
+                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", objWebElement);
+                System.out.println(strObjectName + " " + "Clicked using JavaScript");
+                return true;
+            }
         } catch (Exception objException) {
             System.err.println(strObjectName + " " + "Not Clicked");
             objException.printStackTrace();
@@ -93,10 +102,10 @@ public class ReuseableFunction {
                 wait.until(ExpectedConditions.presenceOfElementLocated(locater));
                 break;
             case toBeVisible:
-                wait.until(ExpectedConditions.visibilityOfElementLocated(locater));
+                wait.until(ExpectedConditions.visibilityOf(element));
                 break;
             case toBeInvisible:
-                wait.until(ExpectedConditions.invisibilityOfElementLocated(locater));
+                wait.until(ExpectedConditions.invisibilityOf(element));
                 break;
             case toBeClickable:
                 wait.until(ExpectedConditions.elementToBeClickable(locater));
@@ -177,6 +186,32 @@ public class ReuseableFunction {
 
         }
         return null;
+    }
+
+    public synchronized boolean isPresent(WebElement objWebElement, String strObjectName) throws Exception {
+        try {
+            waitForElement(WaitCondition.toBeVisible,objWebElement);
+            boolean text = objWebElement.isDisplayed();
+            System.out.println(strObjectName + " " + "is present");
+            return text;
+        } catch (Exception objException) {
+            System.err.println("unable check availablity of "+strObjectName);
+
+        }
+        return false;
+    }
+
+    public synchronized boolean isSelected(WebElement objWebElement, String strObjectName) throws Exception {
+        try {
+            waitForElement(WaitCondition.toBeVisible,objWebElement);
+            boolean text = objWebElement.isSelected();
+            System.out.println(strObjectName + " " + "is selected");
+            return text;
+        } catch (Exception objException) {
+            System.err.println("unable check "+strObjectName+" is selected");
+
+        }
+        return false;
     }
 
     public synchronized String getattribute(WebElement objWebElement, String strObjectName, String attributeName) throws Exception {

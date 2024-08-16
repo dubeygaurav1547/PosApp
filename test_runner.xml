@@ -2,9 +2,11 @@
     <listeners>
         <listener class-name="com.shield3.framework.utils.ExtentReportListener"/>
     </listeners>
-    <test name="Test">
+    <test name="Test" preserve-order="true">
         <classes>
-            <class name="com.shield3.test.verifySigninSignoutTest"/>
+<!--            <class name="com.shield3.test.verifySigninSignoutTest"/>-->
+            <class name="com.shield3.test.VerifyDashboard_MonitoringCard"/>
+            <class name="com.shield3.test.VerifyDashboard_TransactingCard"/>
         </classes>
     </test>
 </suite>

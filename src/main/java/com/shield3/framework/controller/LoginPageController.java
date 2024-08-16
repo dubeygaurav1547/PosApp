@@ -19,6 +19,10 @@ public class LoginPageController extends ReuseableFunction {
         this.driver=driver;
     }
 
+    public void login() throws Exception {
+        enterEmail();
+        enterOTP();
+    }
 
     public String getHeader() throws Exception {
         return getText(login.signupHeader,"signup header");
@@ -52,6 +56,7 @@ public class LoginPageController extends ReuseableFunction {
 
     public void enterOTP() throws Exception {
         List<WebElement> ele = driver.findElements(By.xpath("//div[@class='inline-flex gap-3']//input"));
+        Thread.sleep(2000);
         String otp = readEmailOTP();
         for (int i=0;i<ele.size(); i++){
             typeValue(ele.get(i),"",String.valueOf(otp.charAt(i)));

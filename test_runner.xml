@@ -1,12 +1,12 @@
 <suite name="Suite">
     <listeners>
-        <listener class-name="com.shield3.framework.utils.ExtentReportListener"/>
+        <listener class-name="com.posapp.framework.utils.ExtentReportListener"/>
     </listeners>
     <test name="Test" preserve-order="true">
         <classes>
 <!--            <class name="com.shield3.test.verifySigninSignoutTest"/>-->
-            <class name="com.shield3.test.VerifyDashboard_MonitoringCard"/>
-            <class name="com.shield3.test.VerifyDashboard_TransactingCard"/>
+            
+            <class name="com.posapp.test.HassanTest"/>
         </classes>
     </test>
 </suite>
